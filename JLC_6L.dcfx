@@ -1,0 +1,5624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cft:root-Cadence-Allegro-Constraint-File xmlns:cft="http://www.cadence.com/xsd/wholeFile">
+
+  <cft:txt-FileType Name="FileType">Design</cft:txt-FileType>
+
+  <cft:txt-FormatVersion Name="FormatVersion">17.202</cft:txt-FormatVersion>
+
+  <cft:xml-Header Name="Header">
+    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="sw_ctr_l">
+      <Contents>
+        <v>Stackup</v>
+        <v>Electrical</v>
+        <v>Spacing</v>
+        <v>Physical</v>
+        <v>UDprops</v>
+        <v>OpFlags</v>
+        <v>WSCust</v>
+        <v>SNSpacing</v>
+        <v>Properties</v>
+        <v>Manufacturing</v>
+      </Contents>
+      <revisionNumber logical="0" other="0" physical="20"/>
+      <precision numberOfDecimalPlaces="4" units="mm"/>
+    </root>
+  </cft:xml-Header>
+
+  <cft:dir-objects Name="objects">
+    <cft:xml-objects Name="Design">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="sw_ctr_l">
+          <attribute Name="MINIMUM_LINE_TO_LINE_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MECH_PIN_TO_CONDUCTOR_SPACING">
+            <value Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="PLAN_LAYER_MATCH">
+            <value Value="FALSE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MECH_PIN_TO_MECH_PIN_SPACING">
+            <value Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_FILENAME_VALUE">
+            <value Value="10"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_SHAPE_EDGE_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_LINE_TO_SHAPE_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MINIMUM_LINE_TO_PAD_ANGLE">
+            <value Value="90"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <reference Kind="PhysicalCSet" Name="DEFAULT"/>
+          <reference Kind="SpacingCSet" Name="DEFAULT"/>
+          <reference Kind="SameNetSpacingCSet" Name="DEFAULT"/>
+          <config>
+            <v>XNetsDMLOn</v>
+          </config>
+          <x-section>
+            <generic>
+              <t>Conductor</t>
+              <t>Plane</t>
+            </generic>
+            <children BottomIndex="5" StackupOrder="0 " TopIndex="0">
+              <object Type="Surface">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="AIR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="3.8"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.02"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="SURFACE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="TOP"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1524"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1692"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.05"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Plane">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="LAYER_2"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.0175"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_IS_SHIELD">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.2540"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="PLANE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.565"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="LAYER_3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.0175"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1778"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.25"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.127"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="LAYER_4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.0175"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1400"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.565"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Plane">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="LAYER_5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.0175"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_IS_SHIELD">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="PLANE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.05"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="BOTTOM"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.3"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.2032"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Surface">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="AIR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="3.8"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.02"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="SURFACE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+            </children>
+          </x-section>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="DiffPair">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DIFFPAIR20">
+          <reference Kind="PhysicalCSet" Name="PCS1_DIFF90"/>
+          <member Kind="Net" Name="RSP_USB_DP"/>
+          <member Kind="Net" Name="RSP_USB_DM"/>
+        </object>
+        <object Name="DIFFPAIR19">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P0_MDI_R-"/>
+          <member Kind="Net" Name="P0_MDI_R+"/>
+        </object>
+        <object Name="DIFFPAIR18">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P0_MDI_T-"/>
+          <member Kind="Net" Name="P0_MDI_T+"/>
+        </object>
+        <object Name="DIFFPAIR17">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="N1243714"/>
+          <member Kind="Net" Name="N1243710"/>
+        </object>
+        <object Name="DIFFPAIR16">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="N1243730"/>
+          <member Kind="Net" Name="N1243718"/>
+        </object>
+        <object Name="DIFFPAIR15">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="N1243770"/>
+          <member Kind="Net" Name="N1243766"/>
+        </object>
+        <object Name="DIFFPAIR14">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="N1243792"/>
+          <member Kind="Net" Name="N1243774"/>
+        </object>
+        <object Name="DIFFPAIR13">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P2_MX_R-"/>
+          <member Kind="Net" Name="P2_MX_R+"/>
+        </object>
+        <object Name="DIFFPAIR12">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P2_MX_T+"/>
+          <member Kind="Net" Name="P2_MX_T-"/>
+        </object>
+        <object Name="DIFFPAIR11">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="HDMI_D2_N"/>
+          <member Kind="Net" Name="HDMI_D2_P"/>
+        </object>
+        <object Name="DIFFPAIR10">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="HDMI_D1_N"/>
+          <member Kind="Net" Name="HDMI_D1_P"/>
+        </object>
+        <object Name="DIFFPAIR9">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="HDMI_D0_N"/>
+          <member Kind="Net" Name="HDMI_D0_P"/>
+        </object>
+        <object Name="DIFFPAIR8">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="HDMI_CK_P"/>
+          <member Kind="Net" Name="HDMI_CK_N"/>
+        </object>
+        <object Name="DIFFPAIR7">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="EP1_MDI_T+"/>
+          <member Kind="Net" Name="EP1_MDI_T-"/>
+        </object>
+        <object Name="DIFFPAIR6">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="EP1_MDI_R+"/>
+          <member Kind="Net" Name="EP1_MDI_R-"/>
+        </object>
+        <object Name="DIFFPAIR5">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P2_MDI_T+"/>
+          <member Kind="Net" Name="P2_MDI_T-"/>
+        </object>
+        <object Name="DIFFPAIR4">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P2_MDI_R+"/>
+          <member Kind="Net" Name="P2_MDI_R-"/>
+        </object>
+        <object Name="DIFFPAIR3">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P1_MDI_R+"/>
+          <member Kind="Net" Name="P1_MDI_R-"/>
+        </object>
+        <object Name="DIFFPAIR2">
+          <reference Kind="PhysicalCSet" Name="PCS2_DIFF100"/>
+          <member Kind="Net" Name="P1_MDI_T-"/>
+          <member Kind="Net" Name="P1_MDI_T+"/>
+        </object>
+        <object Name="DIFFPAIR1">
+          <reference Kind="PhysicalCSet" Name="PCS1_DIFF90"/>
+          <member Kind="Net" Name="USB2_D-"/>
+          <member Kind="Net" Name="USB2_D+"/>
+        </object>
+        <object Name="DIFFPAIR0">
+          <reference Kind="PhysicalCSet" Name="PCS1_DIFF90"/>
+          <member Kind="Net" Name="USBDM2"/>
+          <member Kind="Net" Name="USBDP2"/>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="Gate">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243418@socket.\rj45_connfly_180_8p8c.normal\(chips)" Name="F107">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243454@socket.\rj45_connfly_180_8p8c.normal\(chips)" Name="F106">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1227995@misc.\con4.normal\(chips)" Name="F108">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1223703@misc.\con8.normal\(chips)" Name="F109">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1238857@misc.\cap pol.normal\(chips)" Name="F177">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins21496@misc.\cap pol.normal\(chips)" Name="F184">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699920@misc.\cap pol.normal\(chips)" Name="F183">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700548@misc.\cap pol.normal\(chips)" Name="F182">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710300@misc.\cap pol.normal\(chips)" Name="F181">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710782@misc.\cap pol.normal\(chips)" Name="F180">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710316@misc.\cap pol.normal\(chips)" Name="F179">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710798@misc.\cap pol.normal\(chips)" Name="F178">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243236@misc.\c.normal\(chips)" Name="F159">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243317@misc.\c.normal\(chips)" Name="F158">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171172@misc.\c.normal\(chips)" Name="F176">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171198@misc.\c.normal\(chips)" Name="F175">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171224@misc.\c.normal\(chips)" Name="F174">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171250@misc.\c.normal\(chips)" Name="F173">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171276@misc.\c.normal\(chips)" Name="F172">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172088@misc.\c.normal\(chips)" Name="F171">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172104@misc.\c.normal\(chips)" Name="F170">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172120@misc.\c.normal\(chips)" Name="F169">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172136@misc.\c.normal\(chips)" Name="F168">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172152@misc.\c.normal\(chips)" Name="F167">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172272@misc.\c.normal\(chips)" Name="F166">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172288@misc.\c.normal\(chips)" Name="F165">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172544@misc.\c.normal\(chips)" Name="F164">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171671@misc.\c.normal\(chips)" Name="F163">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171687@misc.\c.normal\(chips)" Name="F162">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins176606@misc.\c.normal\(chips)" Name="F161">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins173541@misc.\c.normal\(chips)" Name="F160">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins21512@misc.\c.normal\(chips)" Name="F157">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins21653@misc.\c.normal\(chips)" Name="F156">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins788723@misc.\c.normal\(chips)" Name="F155">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins77725@misc.\c.normal\(chips)" Name="F154">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins788739@misc.\c.normal\(chips)" Name="F153">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins788821@misc.\c.normal\(chips)" Name="F152">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins788837@misc.\c.normal\(chips)" Name="F151">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins88857@misc.\c.normal\(chips)" Name="F150">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins156539@misc.\c.normal\(chips)" Name="F149">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins227075@misc.\c.normal\(chips)" Name="F148">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins165991@misc.\c.normal\(chips)" Name="F147">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172467@misc.\c.normal\(chips)" Name="F146">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699872@misc.\c.normal\(chips)" Name="F145">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700020@misc.\c.normal\(chips)" Name="F144">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700500@misc.\c.normal\(chips)" Name="F143">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700648@misc.\c.normal\(chips)" Name="F142">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins171655@misc.\c.normal\(chips)" Name="F141">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins137352@misc.\c.normal\(chips)" Name="F140">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins174186@misc.\c.normal\(chips)" Name="F139">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins174202@misc.\c.normal\(chips)" Name="F138">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699782@misc.\c.normal\(chips)" Name="F137">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700410@misc.\c.normal\(chips)" Name="F136">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699832@misc.\cap pol.normal\(chips)" Name="F135">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700460@misc.\cap pol.normal\(chips)" Name="F134">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700882@misc.\cap pol.normal\(chips)" Name="F133">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700834@misc.\cap pol.normal\(chips)" Name="F132">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700898@misc.\cap pol.normal\(chips)" Name="F131">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700850@misc.\cap pol.normal\(chips)" Name="F130">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins935107@misc.\cap pol.normal\(chips)" Name="F129">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1198687@misc.\c.normal\(chips)" Name="F128">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243612@misc.\c.normal\(chips)" Name="F127">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins80685@misc.\c.normal\(chips)" Name="F126">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1248231@misc.\led.normal\(chips)" Name="F123">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1248261@misc.\led.normal\(chips)" Name="F122">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1248617@misc.\led.normal\(chips)" Name="F121">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1248959@misc.\led.normal\(chips)" Name="F120">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins943992@misc.\led.normal\(chips)" Name="F125">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1157379@misc.\led.normal\(chips)" Name="F124">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699904@misc.\diode.normal\(chips)" Name="F119">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700532@misc.\diode.normal\(chips)" Name="F118">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins128210@socket.\so_dimm_200p.normal\(chips)" Name="F117">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1149721@misc.\con4.normal\(chips)" Name="F116">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1149135@misc.\con4.normal\(chips)" Name="F115">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins228361@socket.\vbat_20mm.normal\(chips)" Name="F114">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins162698@socket.\hdmi_a_19p.normal\(chips)" Name="F113">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins961898@socket.\usb_a-f.normal\(chips)" Name="F112">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins962355@socket.\usb_a-f.normal\(chips)" Name="F111">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1219390@misc.\con10.normal\(chips)" Name="F110">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins189781@misc.\l.normal\(chips)" Name="F105">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172728@misc.\l.normal\(chips)" Name="F104">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins172421@misc.\l.normal\(chips)" Name="F103">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699848@misc.\l.normal\(chips)" Name="F102">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700476@misc.\l.normal\(chips)" Name="F101">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins168554@transistor_mos.\bss138.normal\(chips)" Name="F100">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins168683@transistor_mos.\bss138.normal\(chips)" Name="F99">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins15668@misc.\res.normal\(chips)" Name="F98">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins229503@misc.\res.normal\(chips)" Name="F97">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins229475@misc.\res.normal\(chips)" Name="F96">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins173425@misc.\res.normal\(chips)" Name="F95">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins173510@misc.\res.normal\(chips)" Name="F94">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1107064@misc.\res.normal\(chips)" Name="F93">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1107090@misc.\res.normal\(chips)" Name="F92">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1107116@misc.\res.normal\(chips)" Name="F91">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1107142@misc.\res.normal\(chips)" Name="F90">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1107168@misc.\res.normal\(chips)" Name="F89">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1107194@misc.\res.normal\(chips)" Name="F88">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1199390@misc.\res.normal\(chips)" Name="F87">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins15642@misc.\res.normal\(chips)" Name="F86">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins15497@misc.\res.normal\(chips)" Name="F85">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins15419@misc.\res.normal\(chips)" Name="F84">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins15445@misc.\res.normal\(chips)" Name="F83">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins15471@misc.\res.normal\(chips)" Name="F82">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins6869@misc.\res.normal\(chips)" Name="F81">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins152210@misc.\res.normal\(chips)" Name="F80">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins152274@misc.\res.normal\(chips)" Name="F79">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699984@misc.\res.normal\(chips)" Name="F78">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins9413@misc.\res.normal\(chips)" Name="F77">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1192394@misc.\res.normal\(chips)" Name="F76">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1192420@misc.\res.normal\(chips)" Name="F75">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins943972@misc.\res.normal\(chips)" Name="F74">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins137316@misc.\res.normal\(chips)" Name="F73">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins137846@misc.\res.normal\(chips)" Name="F72">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins137827@misc.\res.normal\(chips)" Name="F71">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1141522@misc.\res.normal\(chips)" Name="F70">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1141538@misc.\res.normal\(chips)" Name="F69">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins169787@misc.\res.normal\(chips)" Name="F68">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins173090@misc.\res.normal\(chips)" Name="F67">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins707635@misc.\res.normal\(chips)" Name="F66">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins176135@misc.\res.normal\(chips)" Name="F65">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins176192@misc.\res.normal\(chips)" Name="F64">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins176218@misc.\res.normal\(chips)" Name="F63">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins176244@misc.\res.normal\(chips)" Name="F62">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins176352@misc.\res.normal\(chips)" Name="F61">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins173312@misc.\res.normal\(chips)" Name="F60">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins174294@misc.\res.normal\(chips)" Name="F59">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699936@misc.\res.normal\(chips)" Name="F58">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700564@misc.\res.normal\(chips)" Name="F57">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700612@misc.\res.normal\(chips)" Name="F56">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710284@misc.\res.normal\(chips)" Name="F55">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710356@misc.\res.normal\(chips)" Name="F54">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710766@misc.\res.normal\(chips)" Name="F53">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710838@misc.\res.normal\(chips)" Name="F52">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1157405@misc.\res.normal\(chips)" Name="F51">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1199462@misc.\res.normal\(chips)" Name="F50">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins947809@misc.\res.normal\(chips)" Name="F49">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins947835@misc.\res.normal\(chips)" Name="F48">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins9871@misc.\res.normal\(chips)" Name="F39">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins9907@misc.\res.normal\(chips)" Name="F38">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins26185@misc.\res.normal\(chips)" Name="F37">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243500@misc.\res.normal\(chips)" Name="F47">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243528@misc.\res.normal\(chips)" Name="F46">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243556@misc.\res.normal\(chips)" Name="F45">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1243584@misc.\res.normal\(chips)" Name="F44">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins80326@misc.\res.normal\(chips)" Name="F43">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins80364@misc.\res.normal\(chips)" Name="F42">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins80402@misc.\res.normal\(chips)" Name="F41">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins80440@misc.\res.normal\(chips)" Name="F40">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins9678@misc.\sw.normal\(chips)" Name="F36">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins9694@misc.\sw.normal\(chips)" Name="F35">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins153491@misc.\sw.normal\(chips)" Name="F34">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins153517@misc.\sw.normal\(chips)" Name="F33">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710684@misc.\tp_smd.normal\(chips)" Name="F32">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710408@misc.\tp_smd.normal\(chips)" Name="F31">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710890@misc.\tp_smd.normal\(chips)" Name="F30">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins780887@misc.\tp_smd.normal\(chips)" Name="F29">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins780897@misc.\tp_smd.normal\(chips)" Name="F28">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins780907@misc.\tp_smd.normal\(chips)" Name="F27">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699822@misc.\tp_smd.normal\(chips)" Name="F26">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700036@misc.\tp_smd.normal\(chips)" Name="F25">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700450@misc.\tp_smd.normal\(chips)" Name="F24">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700664@misc.\tp_smd.normal\(chips)" Name="F23">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710202@misc.\tp_smd.normal\(chips)" Name="F22">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins14427@misc.\mt7620_module_socketa.normal\(chips)" Name="F21">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins14273@misc.\mt7620_module_socketb.normal\(chips)" Name="F20">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins4471@misc.\mt7620_module_socketc.normal\(chips)" Name="F19">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins4612@misc.\mt7620_module_socketd.normal\(chips)" Name="F18">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins4693@misc.\mt7620_module_sockete.normal\(chips)" Name="F17">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins155569@socket.\tfcard.normal\(chips)" Name="F16">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins14532@socket.\tfcard.normal\(chips)" Name="F15">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins165618@misc.\ap2331w.normal\(chips)" Name="F14">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins165575@misc.\esd5384.normal\(chips)" Name="F13">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins170637@misc.\lan9512.normal\(chips)" Name="F12">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins754212@misc.\nup4202.normal\(chips)" Name="F11">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins20920@misc.\nup4202.normal\(chips)" Name="F10">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins699752@misc.\lm22672_dda_8.normal\(chips)" Name="F9">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins700380@misc.\lm22672_dda_8.normal\(chips)" Name="F8">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710228@misc.\mic39102.normal\(chips)" Name="F7">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins710710@misc.\mic39102.normal\(chips)" Name="F6">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins897990@misc.\mic2026-1bm.normal\(chips)" Name="F5">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1192804@misc.\ds3231sn#.normal\(chips)" Name="F4">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1198184@pwr.\tps22971yzpt.normal\(chips)" Name="F3">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins1242898@misc.\h500x.normal\(chips)" Name="F2">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins77371@misc.\h500x.normal\(chips)" Name="F1">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):ins174160@misc.\xtal_2p.normal\(chips)" Name="F0">
+          <attribute Name="PRIM_FILE">
+            <value Value=".\pstchip.dat"/>
+            <origin>
+              <v>FE</v>
+            </origin>
+          </attribute>
+          <children Kind="Pin"/>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="Net">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):rsp_usb_dp" Name="RSP_USB_DP"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):rsp_usb_dm" Name="RSP_USB_DM"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p0_mdi_r-\" Name="P0_MDI_R-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p0_mdi_r+\" Name="P0_MDI_R+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p0_mdi_t-\" Name="P0_MDI_T-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p0_mdi_t+\" Name="P0_MDI_T+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243714" Name="N1243714"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243710" Name="N1243710"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243730" Name="N1243730"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243718" Name="N1243718"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243770" Name="N1243770"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243766" Name="N1243766"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243792" Name="N1243792"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):n1243774" Name="N1243774"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mx_r-\" Name="P2_MX_R-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mx_r+\" Name="P2_MX_R+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mx_t+\" Name="P2_MX_T+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mx_t-\" Name="P2_MX_T-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_d2_n" Name="HDMI_D2_N"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_d2_p" Name="HDMI_D2_P"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_d1_n" Name="HDMI_D1_N"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_d1_p" Name="HDMI_D1_P"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_d0_n" Name="HDMI_D0_N"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_d0_p" Name="HDMI_D0_P"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_ck_p" Name="HDMI_CK_P"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):hdmi_ck_n" Name="HDMI_CK_N"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\ep1_mdi_t+\" Name="EP1_MDI_T+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\ep1_mdi_t-\" Name="EP1_MDI_T-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\ep1_mdi_r+\" Name="EP1_MDI_R+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\ep1_mdi_r-\" Name="EP1_MDI_R-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mdi_t+\" Name="P2_MDI_T+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mdi_t-\" Name="P2_MDI_T-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mdi_r+\" Name="P2_MDI_R+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p2_mdi_r-\" Name="P2_MDI_R-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p1_mdi_r+\" Name="P1_MDI_R+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p1_mdi_r-\" Name="P1_MDI_R-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p1_mdi_t-\" Name="P1_MDI_T-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\p1_mdi_t+\" Name="P1_MDI_T+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\usb2_d-\" Name="USB2_D-"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\usb2_d+\" Name="USB2_D+"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):usbdm2" Name="USBDM2"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):usbdp2" Name="USBDP2"/>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):vdd18usbpll" Name="VDD18USBPLL">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):vdd18ethpll" Name="VDD18ETHPLL">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):vdd18core" Name="VDD18CORE">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\7620_3v3\" Name="7620_3V3">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):vdd_core" Name="VDD_CORE">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):\+15v\" Name="+15V">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):usb_3v3a" Name="USB_3V3A">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):vcc5v" Name="VCC5V">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):cm_3v3" Name="CM_3V3">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):cm_vdac" Name="CM_VDAC">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):cm_1v8" Name="CM_1V8">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):gnd" Name="GND">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+        <object AltName="@mini_sw_ctr.schematic1(sch_1):h5v" Name="H5V">
+          <reference Kind="PhysicalCSet" Name="PCS3_PWR"/>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="Part">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="J28"/>
+        <object Name="J29"/>
+        <object Name="J26"/>
+        <object Name="C145"/>
+        <object Name="C1"/>
+        <object Name="C125">
+          <attribute Name="REUSE_ID">
+            <value Value="3"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C132"/>
+        <object Name="C136"/>
+        <object Name="C137"/>
+        <object Name="C138"/>
+        <object Name="C139"/>
+        <object Name="J27"/>
+        <object Name="C120"/>
+        <object Name="C121"/>
+        <object Name="D10">
+          <attribute Name="REUSE_ID">
+            <value Value="14"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="D11"/>
+        <object Name="J16"/>
+        <object Name="J3"/>
+        <object Name="J18"/>
+        <object Name="L1"/>
+        <object Name="L12"/>
+        <object Name="L13"/>
+        <object Name="J14"/>
+        <object Name="L14">
+          <attribute Name="REUSE_ID">
+            <value Value="10"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C146"/>
+        <object Name="C147"/>
+        <object Name="C101"/>
+        <object Name="C102"/>
+        <object Name="C103"/>
+        <object Name="C104"/>
+        <object Name="C105"/>
+        <object Name="C106"/>
+        <object Name="C107"/>
+        <object Name="C108"/>
+        <object Name="C109"/>
+        <object Name="C110"/>
+        <object Name="C111"/>
+        <object Name="C112"/>
+        <object Name="C114"/>
+        <object Name="C116"/>
+        <object Name="C117"/>
+        <object Name="C118"/>
+        <object Name="C119"/>
+        <object Name="C2"/>
+        <object Name="C3"/>
+        <object Name="C4"/>
+        <object Name="C49"/>
+        <object Name="C5"/>
+        <object Name="C6"/>
+        <object Name="C7"/>
+        <object Name="C8"/>
+        <object Name="C91"/>
+        <object Name="C94"/>
+        <object Name="C96"/>
+        <object Name="C115"/>
+        <object Name="C90"/>
+        <object Name="C122">
+          <attribute Name="REUSE_ID">
+            <value Value="11"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C129"/>
+        <object Name="C126">
+          <attribute Name="REUSE_ID">
+            <value Value="5"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C133"/>
+        <object Name="C148"/>
+        <object Name="C51"/>
+        <object Name="D15"/>
+        <object Name="D16"/>
+        <object Name="D17"/>
+        <object Name="D18"/>
+        <object Name="D1"/>
+        <object Name="D14"/>
+        <object Name="C127">
+          <attribute Name="REUSE_ID">
+            <value Value="4"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C134"/>
+        <object Name="C143"/>
+        <object Name="C113"/>
+        <object Name="C123">
+          <attribute Name="REUSE_ID">
+            <value Value="12"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C128">
+          <attribute Name="REUSE_ID">
+            <value Value="7"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C130"/>
+        <object Name="C135"/>
+        <object Name="J17"/>
+        <object Name="C124">
+          <attribute Name="REUSE_ID">
+            <value Value="13"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="C131"/>
+        <object Name="C144"/>
+        <object Name="J22"/>
+        <object Name="J23"/>
+        <object Name="J25"/>
+        <object Name="R121"/>
+        <object Name="R122"/>
+        <object Name="R154"/>
+        <object Name="R155"/>
+        <object Name="R11"/>
+        <object Name="R118"/>
+        <object Name="R119"/>
+        <object Name="R139">
+          <attribute Name="REUSE_ID">
+            <value Value="8"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="R15"/>
+        <object Name="R157"/>
+        <object Name="R158"/>
+        <object Name="R7"/>
+        <object Name="R1"/>
+        <object Name="R116"/>
+        <object Name="R117"/>
+        <object Name="R135"/>
+        <object Name="R136"/>
+        <object Name="R148"/>
+        <object Name="R149"/>
+        <object Name="R150"/>
+        <object Name="R151"/>
+        <object Name="R152"/>
+        <object Name="R153"/>
+        <object Name="R159"/>
+        <object Name="R2"/>
+        <object Name="R3"/>
+        <object Name="R4"/>
+        <object Name="R5"/>
+        <object Name="R6"/>
+        <object Name="R128"/>
+        <object Name="R134"/>
+        <object Name="R143"/>
+        <object Name="R160"/>
+        <object Name="R20"/>
+        <object Name="R21"/>
+        <object Name="R29"/>
+        <object Name="U15"/>
+        <object Name="U16"/>
+        <object Name="L15"/>
+        <object Name="R126"/>
+        <object Name="R140"/>
+        <object Name="R156"/>
+        <object Name="U18"/>
+        <object Name="U19"/>
+        <object Name="U3"/>
+        <object Name="Q4"/>
+        <object Name="Q5"/>
+        <object Name="R137"/>
+        <object Name="R138">
+          <attribute Name="REUSE_ID">
+            <value Value="6"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="R129"/>
+        <object Name="R130"/>
+        <object Name="R131"/>
+        <object Name="R132"/>
+        <object Name="R142"/>
+        <object Name="R144"/>
+        <object Name="R145"/>
+        <object Name="R127"/>
+        <object Name="R141"/>
+        <object Name="R22"/>
+        <object Name="R23"/>
+        <object Name="R161"/>
+        <object Name="R162"/>
+        <object Name="R163"/>
+        <object Name="R164"/>
+        <object Name="R59"/>
+        <object Name="R60"/>
+        <object Name="R61"/>
+        <object Name="R62"/>
+        <object Name="R115"/>
+        <object Name="R133"/>
+        <object Name="SW1"/>
+        <object Name="SW2"/>
+        <object Name="SW3"/>
+        <object Name="SW4"/>
+        <object Name="TP10"/>
+        <object Name="TP11"/>
+        <object Name="TP12"/>
+        <object Name="TP2"/>
+        <object Name="TP3"/>
+        <object Name="TP4"/>
+        <object Name="TP5">
+          <attribute Name="REUSE_ID">
+            <value Value="1"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="TP6">
+          <attribute Name="REUSE_ID">
+            <value Value="2"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="TP7">
+          <attribute Name="REUSE_ID">
+            <value Value="15"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="TP8"/>
+        <object Name="TP9"/>
+        <object Name="U1"/>
+        <object Name="U12"/>
+        <object Name="U2"/>
+        <object Name="U21"/>
+        <object Name="U20">
+          <attribute Name="REUSE_ID">
+            <value Value="9"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="U29"/>
+        <object Name="U7"/>
+        <object Name="Y4"/>
+        <object Name="U28"/>
+        <object Name="U22"/>
+        <object Name="U23"/>
+        <object Name="U26"/>
+        <object Name="U25"/>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="PartDefn">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="RJ45_CONNFLY_180_8P8C_RJ45_3_05:RJ45_3_05_CONNFLY:RJ45:"/>
+        <object Name="CON4_HDR1X4_396_W5_8_CON4:HDR1X4_396_W5_8:CON4:"/>
+        <object Name="CON8_HDR254_1X8_CON8:HDR254_1X8:CON8:"/>
+        <object Name="CAP POL_C_2P_114_138X118_22UF 1:C_2P_114_138X118:22uF 16V:"/>
+        <object Name="C_C0603_DISCRETE_0.1UF:C0603:0.1uF:"/>
+        <object Name="C_C0603_DISCRETE_1UF:C0603:1uF:"/>
+        <object Name="C_C0805_DISCRETE_4.7UF:C0805:4.7uF:"/>
+        <object Name="C_C0603_DISCRETE_22PF:C0603:22pF:"/>
+        <object Name="C_C0603_DISCRETE_10NF:C0603:10nF:"/>
+        <object Name="CAP POL_C_2P_114_138X118_22UF 2:C_2P_114_138X118:22uF 20V:"/>
+        <object Name="CAP POL_C7343_22UF 35V:C7343:22uF 35V:"/>
+        <object Name="CAP POL_C_D8_220UF 35V:C_D8:220uF 35V:"/>
+        <object Name="C_C0603_DISCRETE_1NF:C0603:1nF:"/>
+        <object Name="C_C1206_DISCRETE_1NF 2KV:C1206:1nF 2kV:"/>
+        <object Name="LED_LED_0603_LED:LED_0603:LED:"/>
+        <object Name="DIODE_DO_214AA_B340A_13_F:DO_214AA:B340A_13_F:"/>
+        <object Name="SO_DIMM_200P_FCI_10033853_CM_DD:FCI_10033853_CM:DDR2 SODIMM:"/>
+        <object Name="CON4_HDR254_1X4_CON4:HDR254_1X4:CON4:"/>
+        <object Name="VBAT_20MM_CR1220_SOCKET_VBAT_20:CR1220_SOCKET:VBAT_20MM:"/>
+        <object Name="HDMI_A_19P_HDMI_A_19P_HDMI_A_19:HDMI_A_19P:HDMI_A_19p:"/>
+        <object Name="USB_A-F_USB_AF_USB_A-F:USB_AF:USB_A-F:"/>
+        <object Name="CON10_HDR254_1X10_CON10:HDR254_1X10:CON10:"/>
+        <object Name="L_R0603_DISCRETE_FB:R0603:FB:"/>
+        <object Name="L_L_6X6_DISCRETE_SDR0604-330KL:L_6X6:SDR0604-330KL:"/>
+        <object Name="L_L_12_5X12_5_DISCRETE_SRR1208-:L_12_5X12_5:SRR1208-220ML:"/>
+        <object Name="BSS138_SOT_23_M_BSS138:SOT_23_M:BSS138:"/>
+        <object Name="RES_R0603_DISCRETE_10K:R0603:10K:"/>
+        <object Name="RES_R0603_DISCRETE_1K:R0603:1K:"/>
+        <object Name="RES_R0603_DISCRETE_0:R0603:0:"/>
+        <object Name="RES_R0603_DISCRETE_100K 1%:R0603:100K 1%:"/>
+        <object Name="RES_R0603_DISCRETE_120:R0603:120:"/>
+        <object Name="RES_R0603_DISCRETE_12K 1%:R0603:12K 1%:"/>
+        <object Name="RES_R0603_DISCRETE_825:R0603:825:"/>
+        <object Name="RES_R0603_DISCRETE_49.9:R0603:49.9:"/>
+        <object Name="RES_R0603_DISCRETE_10:R0603:10:"/>
+        <object Name="RES_R0603_DISCRETE_12.4K 1%:R0603:12.4K 1%:"/>
+        <object Name="RES_R0603_DISCRETE_1M:R0603:1M:"/>
+        <object Name="RES_R0603_DISCRETE_2.94K:R0603:2.94K:"/>
+        <object Name="RES_R0603_DISCRETE_2K:R0603:2K:"/>
+        <object Name="RES_R0603_DISCRETE_1.3K:R0603:1.3K:"/>
+        <object Name="RES_R0603_DISCRETE_NR/10K:R0603:NR/10K:"/>
+        <object Name="RES_R0603_DISCRETE_NR/6.8K:R0603:NR/6.8K:"/>
+        <object Name="RES_R0603_DISCRETE_NR/15K:R0603:NR/15K:"/>
+        <object Name="RES_R0603_DISCRETE_7K5:R0603:7K5:"/>
+        <object Name="RES_R0603_DISCRETE_22:R0603:22:"/>
+        <object Name="RES_R0603_DISCRETE_4.7K:R0603:4.7K:"/>
+        <object Name="RES_R0603_DISCRETE_NR:R0603:NR:"/>
+        <object Name="RES_R0603_DISCRETE_75:R0603:75:"/>
+        <object Name="SW_HDR254_1X2_SW:HDR254_1X2:SW:"/>
+        <object Name="TP_SMD_TP_60MIL_TP_SMD:TP_60MIL:TP_SMD:"/>
+        <object Name="MT7620_MODULE_SOCKET_MT7620A_CO:MT7620A_CORE:MT7620_MODULE_SOCKET:"/>
+        <object Name="TFCARD_TF-015_TFCARD:TF-015:TFCard:"/>
+        <object Name="AP2331W_SOT_23_M_AP2331W:SOT_23_M:AP2331W:"/>
+        <object Name="ESD5384_ESD5384_ESD5384:ESD5384:ESD5384:"/>
+        <object Name="LAN9512_QFN64P_0_LAN9512:QFN64P_0:LAN9512:"/>
+        <object Name="NUP4202_SC88_SC70-6_SOT-363_NUP:SC88_SC70-6_SOT-363:NUP4202:"/>
+        <object Name="LM22672_DDA_8_MRA08B_LM22672MR-:MRA08B:LM22672MR-ADJ/NOPB:"/>
+        <object Name="LM22672_DDA_8_MRA08B_LM22670MRE:MRA08B:LM22670MRE-ADJ/NOPB:"/>
+        <object Name="MIC39102_R_8_MIC39101-2.5BM:R_8:MIC39101-2.5BM:"/>
+        <object Name="MIC39102_R_8_MIC39101-1.8BM:R_8:MIC39101-1.8BM:"/>
+        <object Name="MIC2026-1BM_SOIC_8_MIC2026-1BM:SOIC_8:MIC2026-1BM:"/>
+        <object Name="DS3231SN#_SOIC16_300MIL_DS3231S:SOIC16_300MIL:DS3231SN#:"/>
+        <object Name="TPS22971YZPT_TPS22971_TPS22971Y:TPS22971:TPS22971YZPT:"/>
+        <object Name="H500X_H5004_7_H5004:H5004_7:H5004:"/>
+        <object Name="XTAL_2P_XTAL_2P_5032_25MHZ:XTAL_2P_5032:25Mhz:"/>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="PhysicalCSet">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DEFAULT">
+          <attribute Name="MIN_LINE_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_NECK_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_STAGGER">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_BVIA_STAGGER">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TS_ALLOWED">
+            <value Generic="ANYWHERE:ANYWHERE" Value="ANYWHERE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_PRIMARY_GAP">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_NECK_GAP">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_LINE_WIDTH">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAXIMUM_NECK_LENGTH">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="PAD_PAD_DIRECT_CONNECT">
+            <value Generic="ALL_ALLOWED:ALL_ALLOWED" Value="ALL_ALLOWED"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="ALLOW_ON_ETCH_SUBCLASS">
+            <value Generic="TRUE:TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_PLUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_MINUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_MIN_SPACE">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="VIA_LIST">
+            <value Value="VIA18CIR8D:VIA25CIR12D:VIA35CIR20D"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="PCS1_DIFF90">
+          <attribute Name="TS_ALLOWED">
+            <value Generic="ANYWHERE:ANYWHERE" Value="ANYWHERE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="PAD_PAD_DIRECT_CONNECT">
+            <value Generic="ALL_ALLOWED:ALL_ALLOWED" Value="ALL_ALLOWED"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="ALLOW_ON_ETCH_SUBCLASS">
+            <value Generic="TRUE:TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_LINE_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1524:0.1270:0.2032:0.2032:0.1270:0.1524"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_NECK_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_STAGGER">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_BVIA_STAGGER">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_PRIMARY_GAP">
+            <value Generic="0.1270:0.0000" Value="0.1692:0.0000:0.1270:0.1270:0.0000:0.1692"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_NECK_GAP">
+            <value Generic="0.1270:0.0000" Value="0.1270:0.0000:0.1270:0.1270:0.0000:0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_LINE_WIDTH">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAXIMUM_NECK_LENGTH">
+            <value Generic="3.8100:3.8100" Value="3.8100"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_PLUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_MINUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_MIN_SPACE">
+            <value Generic="0.1270:0.0000" Value="0.1270:0.0000:0.1270:0.1270:0.0000:0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="VIA_LIST">
+            <value Value="VIA18CIR8D:VIA25CIR12D:VIA35CIR20D"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="PCS2_DIFF100">
+          <attribute Name="TS_ALLOWED">
+            <value Generic="ANYWHERE:ANYWHERE" Value="ANYWHERE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="PAD_PAD_DIRECT_CONNECT">
+            <value Generic="ALL_ALLOWED:ALL_ALLOWED" Value="ALL_ALLOWED"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="ALLOW_ON_ETCH_SUBCLASS">
+            <value Generic="TRUE:TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_LINE_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1270:0.1270:0.1400:0.1400:0.1270:0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_NECK_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_STAGGER">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_BVIA_STAGGER">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_PRIMARY_GAP">
+            <value Generic="0.1270:0.0000" Value="0.2032:0.0000:0.1270:0.1270:0.0000:0.2032"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_NECK_GAP">
+            <value Generic="0.1270:0.0000" Value="0.1270:0.0000:0.1270:0.1270:0.0000:0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_LINE_WIDTH">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAXIMUM_NECK_LENGTH">
+            <value Generic="3.8100:3.8100" Value="3.8100"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_PLUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_MINUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_MIN_SPACE">
+            <value Generic="0.1270:0.0000" Value="0.1270:0.0000:0.1270:0.1270:0.0000:0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="VIA_LIST">
+            <value Value="VIA18CIR8D:VIA25CIR12D:VIA35CIR20D"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+        <object Name="PCS3_PWR">
+          <attribute Name="TS_ALLOWED">
+            <value Generic="ANYWHERE:ANYWHERE" Value="ANYWHERE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_LINE_WIDTH">
+            <value Generic="0.2032:0.2032" Value="0.2032"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_NECK_WIDTH">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_STAGGER">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_BVIA_STAGGER">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_PRIMARY_GAP">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_NECK_GAP">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAX_LINE_WIDTH">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MAXIMUM_NECK_LENGTH">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="PAD_PAD_DIRECT_CONNECT">
+            <value Generic="ALL_ALLOWED:ALL_ALLOWED" Value="ALL_ALLOWED"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="ALLOW_ON_ETCH_SUBCLASS">
+            <value Generic="TRUE:TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_PLUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_COUPLED_MINUS">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DIFFP_MIN_SPACE">
+            <value Generic="0.0000:0.0000" Value="0.0000"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="VIA_LIST">
+            <value Value="VIA25CIR12D:VIA18CIR8D:VIA35CIR20D"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="SameNetSpacingCSet">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DEFAULT">
+          <attribute Name="SN_THRUPIN_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_BBV_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BBV_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTPIN_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTVIA_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTVIA_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_TESTVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_LINE_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SHAPE_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_BONDPAD_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_THRUPIN_TO_BONDPAD_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_SMDPIN_TO_BONDPAD_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_BBV_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SAME_NET">
+            <value Generic="TRUE:TRUE" Value="TRUE"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_PIN_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_VIA_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_LINE_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_SHAPE_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_HOLE_TO_HOLE_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_MVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_BBV_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_MVIA_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SN_BONDPAD_TO_MVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="SpacingCSet">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="DEFAULT">
+          <attribute Name="THRUPIN_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_THRUPIN_SPACING">
+            <value Generic="0.1900:0.1270" Value="0.1900:0.1270:0.1900:0.1900:0.1270:0.1900"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_SMDPIN_SPACING">
+            <value Generic="0.1300:0.1270" Value="0.1300:0.1270:0.1300:0.1300:0.1270:0.1300"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_THRUVIA_SPACING">
+            <value Generic="0.1900:0.1270" Value="0.1900:0.1270:0.1900:0.1900:0.1270:0.1900"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_LINE_SPACING">
+            <value Generic="0.1900:0.1270" Value="0.1900:0.1270:0.1900:0.1900:0.1270:0.1900"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_SHAPE_SPACING">
+            <value Generic="0.1900:0.1270" Value="0.1900:0.1270:0.1900:0.1900:0.1270:0.1900"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_BBV_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BBV_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTPIN_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTVIA_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTVIA_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="TESTVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="LINE_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SHAPE_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_BONDPAD_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="THRUPIN_TO_BONDPAD_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="SMDPIN_TO_BONDPAD_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_BBV_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_PIN_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_VIA_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_LINE_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_SHAPE_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="HOLE_TO_HOLE_SPACING">
+            <value Generic="0.2030:0.2030" Value="0.2030"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_MVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_THRUPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_SMDPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_THRUVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_BBV_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_LINE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_SHAPE_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_TESTPIN_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MVIA_TO_TESTVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_MVIA_SPACING">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="BONDPAD_TO_BONDPAD_DIFFP_SPC">
+            <value Generic="0.1270:0.1270" Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="MIN_BVIA_GAP">
+            <value Value="0.1270"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="Stackup">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="PRIMARY">
+          <attribute Name="CDS_STACKUP_TYPE">
+            <value Value="Rigid"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <member Kind="Layer" Name="0"/>
+          <member Kind="Layer" Name="1"/>
+          <member Kind="Layer" Name="2"/>
+          <member Kind="Layer" Name="3"/>
+          <member Kind="Layer" Name="4"/>
+          <member Kind="Layer" Name="5"/>
+          <member Kind="Layer" Name="6"/>
+          <member Kind="Layer" Name="7"/>
+          <member Kind="Layer" Name="8"/>
+          <member Kind="Layer" Name="9"/>
+          <member Kind="Layer" Name="10"/>
+          <member Kind="Layer" Name="11"/>
+          <member Kind="Layer" Name="12"/>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="SubClass">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="Etch/TOP"/>
+        <object Name="Via/TOP"/>
+        <object Name="Etch/LAYER_2"/>
+        <object Name="Via/LAYER_2"/>
+        <object Name="Etch/LAYER_3"/>
+        <object Name="Via/LAYER_3"/>
+        <object Name="Etch/LAYER_4"/>
+        <object Name="Via/LAYER_4"/>
+        <object Name="Etch/LAYER_5"/>
+        <object Name="Via/LAYER_5"/>
+        <object Name="Etch/BOTTOM"/>
+        <object Name="Via/BOTTOM"/>
+        <object Name="AllMasks/DXF_BOT"/>
+        <object Name="AllMasks/DXF_TOP"/>
+        <object Name="AllMasks/DXF_TOP_C"/>
+        <object Name="AllMasks/ROUTE_KEEPOUT"/>
+        <object Name="AllMasks/SOLDERMASK_TOP"/>
+        <object Name="AllMasks/SOLDERMASK_BOTTOM"/>
+        <object Name="AllMasks/DESIGN_OUTLINE"/>
+        <object Name="AllMasks/CUTOUT"/>
+        <object Name="AllMasks/ASSEMBLY_OUTLINE"/>
+        <object Name="AllMasks/DIMENSION"/>
+        <object Name="AllMasks/DXF"/>
+        <object Name="AllMasks/DIMENSIONS"/>
+        <object Name="AllMasks/PIN"/>
+        <object Name="AllMasks/PLACE_REF_TOP"/>
+        <object Name="AllMasks/REVISION"/>
+        <object Name="AllMasks/ASSEMBLY_PIN"/>
+        <object Name="AllMasks/CUTOUTSLOTS"/>
+        <object Name="AllMasks/DIEBONDPADS"/>
+        <object Name="AllMasks/WIREBONDS"/>
+        <object Name="AllMasks/COPY RIGHT"/>
+        <object Name="AllMasks/COPY_RIGHT"/>
+        <object Name="AllMasks/PLACE_BOUND_TOP"/>
+        <object Name="AllMasks/PLACE_BOUND_BOTTOM"/>
+        <object Name="AllMasks/DFA_BOUND_TOP"/>
+        <object Name="AllMasks/DFA_BOUND_BOTTOM"/>
+        <object Name="AllMasks/PASTEMASK_TOP"/>
+        <object Name="AllMasks/PASTEMASK_BOTTOM"/>
+        <object Name="AllMasks/FILMMASKTOP"/>
+        <object Name="AllMasks/FILMMASKBOTTOM"/>
+        <object Name="AllMasks/ZONE_OUTLINE"/>
+        <object Name="AllMasks/BEND_AREA"/>
+        <object Name="AllMasks/BEND_LINE"/>
+        <object Name="AllMasks/TRANSITION_ZONE"/>
+        <object Name="AllMasks/COVERLAY_TOP"/>
+        <object Name="AllMasks/COVERLAY_BOTTOM"/>
+        <object Name="AllMasks/EMI_SHIELD_TOP"/>
+        <object Name="AllMasks/EMI_SHIELD_BOTTOM"/>
+        <object Name="AllMasks/STIFFENER_TOP"/>
+        <object Name="AllMasks/STIFFENER_BOTTOM"/>
+        <object Name="AllMasks/STIFFENER_METAL_TOP"/>
+        <object Name="AllMasks/STIFFENER_METAL_BOTTOM"/>
+        <object Name="AllMasks/ENIG_TOP"/>
+        <object Name="AllMasks/ENIG_BOTTOM"/>
+        <object Name="AllMasks/ENEPIG_TOP"/>
+        <object Name="AllMasks/ENEPIG_BOTTOM"/>
+        <object Name="AllMasks/IMMERSION_TIN_TOP"/>
+        <object Name="AllMasks/IMMERSION_TIN_BOTTOM"/>
+        <object Name="AllMasks/IMMERSION_SILVER_TOP"/>
+        <object Name="AllMasks/IMMERSION_SILVER_BOTTOM"/>
+        <object Name="AllMasks/OSP_TOP"/>
+        <object Name="AllMasks/OSP_BOTTOM"/>
+        <object Name="AllMasks/GOLD_HARD_TOP"/>
+        <object Name="AllMasks/GOLD_HARD_BOTTOM"/>
+        <object Name="AllMasks/GOLD_SOFT_TOP"/>
+        <object Name="AllMasks/GOLD_SOFT_BOTTOM"/>
+        <object Name="AllMasks/TIN_PLATE_TOP"/>
+        <object Name="AllMasks/TIN_PLATE_BOTTOM"/>
+        <object Name="AllMasks/CARBON_TOP"/>
+        <object Name="AllMasks/CARBON_BOTTOM"/>
+        <object Name="AllMasks/SILVER_INK_TOP"/>
+        <object Name="AllMasks/SILVER_INK_BOTTOM"/>
+      </root>
+    </cft:xml-objects>
+  </cft:dir-objects>
+
+  <cft:xml-opFlags Name="opFlags">
+    <root xmlns="http://www.cadence.com/xsd/objects">
+      <attribute Name="MAX_XTALK_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_PEAK_XTALK_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="IMPEDANCE_RULE_CNS_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="STUB_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_VIA_COUNT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MATCH_VIA_COUNT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DRC_UNROUTED_MINPROP">
+        <value Value="N"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DRC_UNROUTED_RELPROP">
+        <value Value="N"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_EXPOSED_LENGTH_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_PARALLEL_CNS_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LAYERSET_GROUP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PROPAGATION_DELAY_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PIN_DELAY_ENABLED">
+        <value Value="N"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_Z_ENABLED">
+        <value Value="N"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TOTAL_ETCH_LENGTH_MIN_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="RELATIVE_PROPAGATION_DELAY_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DIFFP_PRIMARY_GAP_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_LINE_WIDTH_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_LINE_WIDTH_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SAME_NET_XTALK_ENABLED">
+        <value Value="N"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ALLOW_ON_ETCH_SUBCLASS_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TS_ALLOWED_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_BVIA_STAGGER_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAX_BVIA_STAGGER_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PAD_PAD_DIRECT_CONNECT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DRC_HOLE_IN_PAD">
+        <value Value="N"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUPIN_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SMDPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="THRUVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_BBV_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_BBV_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BBV_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_BONDPAD_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="LINE_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_PIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_VIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="HOLE_TO_HOLE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_MVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_SMDPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_BBV_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_LINE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_SHAPE_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_TESTPIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_MVIA_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_BVIA_GAP_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUPIN_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SMDPIN_TO_BONDPAD_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTPIN_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_THRUVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_TESTVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_BBV_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_BBV_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BBV_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_BONDPAD_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_LINE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_SHAPE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_PIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_VIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_HOLE_TO_HOLE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_MVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_THRUPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_SMDPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_THRUVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_BBV_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_LINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_TESTPIN_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_MVIA_TO_TESTVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SN_BONDPAD_TO_MVIA_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="BONDPAD_TO_BONDPAD_DIFFP_SPC_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_PACKAGE_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_KEEPIN_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_KEEPOUT_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ROOM_TYPE_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_TO_CAVITY_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PACKAGE_TO_LAYER_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SHAPE_ISLAND_OVERSIZE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_ALIGNMENT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_CLINE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="SOLDERMASK_SHAPE_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TPPAD_CMP_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TPLOC_CMP_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="TESTPOINT_ALLOW_UNDER_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MECH_PIN_TO_MECH_PIN_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MECH_PIN_TO_CONDUCTOR_SPACING_VMODE">
+        <value Value="ON"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_AT_SMD_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_AT_SMD_FIT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_AT_SMD_THRU_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ETCH_TURN_UNDER_PAD_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PASTEMASK_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="NEGATIVE_PLANE_SLIVER_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="VIA_LIST_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="PIN_TO_ROUTE_KEEPOUT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MIN_METAL_SPACING_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="DUP_DRILL_HOLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAXIMUM_CAVITY_SIZE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MAXIMUM_CAVITY_COMPONENT_COUNT_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="ADRC_OBJECT_EXPOSURE_CAVITY_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_SHAPE_EDGE_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_LINE_TO_PAD_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_LINE_TO_SHAPE_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+      <attribute Name="MINIMUM_LINE_TO_LINE_ANGLE_VMODE">
+        <value Value="OFF"/>
+        <origin>
+          <v>BE</v>
+        </origin>
+      </attribute>
+    </root>
+  </cft:xml-opFlags>
+
+  <cft:dir-uiCustomization Name="uiCustomization">
+    <cft:xml-uiCustomization Name="">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+    <cft:xml-uiCustomization Name="consmgr">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+    <cft:xml-uiCustomization Name="dcm_empty">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+    <cft:xml-uiCustomization Name="interfaceEditor">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+    <cft:xml-uiCustomization Name="iobufseq">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+    <cft:xml-uiCustomization Name="reviewECSetMapping">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+    <cft:xml-uiCustomization Name="techedt">
+      <root xmlns="http://www.cadence.com/xsd/wcf"/>
+    </cft:xml-uiCustomization>
+  </cft:dir-uiCustomization>
+
+  <cft:xml-userPropertyDefinitions Name="userPropertyDefinitions">
+    <root xmlns="http://www.cadence.com/xsd/dictionary">
+      <attribute Description=" " Name="USER4_SPE">
+        <value Kind="Property">
+          <data Storage="String" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>SymbolDefn</o>
+            <o>Symbol</o>
+          </valid>
+        </objects>
+      </attribute>
+      <attribute Description=" " Name="USER1_LAST_MODIFY">
+        <value Kind="Property">
+          <data Storage="String" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>SymbolDefn</o>
+            <o>Symbol</o>
+          </valid>
+        </objects>
+      </attribute>
+      <attribute Description=" " Name="USER2_REVISION">
+        <value Kind="Property">
+          <data Storage="String" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>SymbolDefn</o>
+            <o>Symbol</o>
+          </valid>
+        </objects>
+      </attribute>
+      <attribute Description=" " Name="USER3_URI">
+        <value Kind="Property">
+          <data Storage="String" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>SymbolDefn</o>
+            <o>Symbol</o>
+          </valid>
+        </objects>
+      </attribute>
+      <attribute Description=" " Name="USER5_REF">
+        <value Kind="Property">
+          <data Storage="String" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>SymbolDefn</o>
+            <o>Symbol</o>
+          </valid>
+        </objects>
+      </attribute>
+      <attribute Description=" " Name="MAX_FILENAME_VALUE">
+        <value Kind="Property">
+          <data Storage="String" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>Design</o>
+          </valid>
+        </objects>
+      </attribute>
+      <attribute Description=" " Name="VIAARRAYID">
+        <value Kind="Property">
+          <data Storage="Integer" Type="Scalar"/>
+        </value>
+        <objects>
+          <valid>
+            <o>PinDefn</o>
+            <o>Pin</o>
+            <o>Shape</o>
+            <o>Via</o>
+            <o>SymbolDefn</o>
+            <o>Symbol</o>
+            <o>Void</o>
+            <o>CLine</o>
+          </valid>
+        </objects>
+      </attribute>
+    </root>
+  </cft:xml-userPropertyDefinitions>
+
+</cft:root-Cadence-Allegro-Constraint-File>
